@@ -1,0 +1,1 @@
+export { ManagerWorkloadView } from '../../ManagerWorkloadView';

@@ -1,0 +1,1 @@
+export { WorkHubView } from '../../WorkHubView';

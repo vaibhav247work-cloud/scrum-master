@@ -1,0 +1,84 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Java & Maven build artifacts
+**/target/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/wrapper/maven-wrapper.jar
+
+# Frontend & Node dependencies and build artifacts
+**/node_modules/
+node_modules/
+**/dist/
+dist/
+**/.vite/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test & Coverage artifacts
+coverage/
+*.lcov
+test-results/
+playwright-report/
+blob-report/
+
+# Logs & Temporary outputs
+*.log
+logs/
+*.out
+*.tmp
+.vite-live.out
+
+# Local runtime logs
+cache-live.err.log
+cache-live.out.log
+frontend-backend-live.err.log
+frontend-backend-live.out.log
+frontend-live.err.log
+frontend-live.out.log
+idempotency-live.err.log
+idempotency-live.out.log
+outbox-admin-live.err.log
+outbox-admin-live.out.log
+outbox-live.err.log
+outbox-live.out.log
+outbox-metrics-live.err.log
+outbox-metrics-live.out.log
+ratelimit-live.err.log
+ratelimit-live.out.log
+reporting-live.err.log
+reporting-live.out.log
+tenant-isolation-live.err.log
+tenant-isolation-live.out.log
+
+# Scratch / testing folders
+/testing
+/doc
+
+# Architecture & design documentation (kept private / local)
+/Backend Module Dependency Map.md
+/Data Retention, Archiving, and Log Policy.md
+/Database Persistence and Migration Standards.md
+/Event and Outbox Architecture.md
+/Security Architecture and Threat Model.md
